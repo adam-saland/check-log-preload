@@ -1,0 +1,21 @@
+{
+    "startup_app": {
+        "name": "log-test",
+        "url": "http://localhost:5555/index.html",
+        "uuid": "log-test",
+        "applicationIcon": "http://localhost:5555/favicon.ico",
+        "autoShow": true,
+        "saveWindowState": true,
+        "preloadScripts": [{"url": "http://localhost:5555/log.js"}]
+    },
+    "runtime": {
+        "arguments": "",
+        "version": "18.87.57.28"
+    },
+    "shortcut": {
+        "company": "OpenFin",
+        "description": "Openfin POC",
+        "icon": "http://localhost:5555/favicon.ico",
+        "name": "log test"
+    }
+}
